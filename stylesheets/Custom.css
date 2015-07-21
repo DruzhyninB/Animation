@@ -1,0 +1,139 @@
+﻿body {
+    background-color:#000;
+    margin:0;
+    overflow:hidden;
+}
+.col-lg-3{
+    padding-top:70px;
+}
+.Animation-place{
+    width:310px;
+    height:310px;
+    padding:5px;
+    position:relative;
+    margin:0 auto;
+}
+.animation_holder{
+    width:290px;
+    height:300px;
+    border:5px solid #fff;
+    border-radius:100%;
+    background-color:#181818;
+    margin:100px auto;
+    overflow:hidden;
+    position: absolute;
+}
+.animation_holder div{
+    position:relative;
+}
+.invisible_area{
+  clip: rect(0px,auto,250px,0px);
+  background: transparent;
+  position: absolute;
+  z-index: 10;
+  overflow: visible;
+  border: 5px solid transparent;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/*<=================== Man1 styles=======================>*/
+.man1{
+    background-image:url(../images/man1.png);
+    width:253px;
+    height:529px;
+    margin:auto;
+    top:320px;
+}
+.man1-invis{
+    top:414px;
+}
+/*<=================== Girl1 styles=======================>*/
+.girl1{
+    background-image:url(../images/girl1.png);
+    width:226px;
+    height:552px;
+    margin:auto;
+    top:320px;
+}
+.girl1-invis{
+    top:414px;
+}
+/*<==================== Girl2 styles======================>*/
+.girl2{
+    background-image:url(../images/girl2.png);
+    width:226px;
+    height:552px;
+    margin:auto;
+    top:320px;
+}
+.girl2-invis{
+    top:414px;
+}
+/*<=================== Man2 styles=======================>*/
+.man2{
+    background-image:url(../images/man2.png);
+    width:253px;
+    height:529px;
+    margin:auto;
+    top:320px;
+}
+.man2-invis{
+    top:414px;
+}
+/*<==================== Girl3 styles======================>*/
+.girl3{
+    background-image:url(../images/girl3.png);
+    width:226px;
+    height:552px;
+    margin:auto;
+    top:320px;
+}
+.girl3-invis{
+    top:414px;
+}
+/*<=================== Man3 styles=======================>*/
+.man3{
+    background-image:url(../images/man3.png);
+    width:253px;
+    height:529px;
+    margin:auto;
+    top:320px;
+}
+.man3-invis{
+    top:414px;
+}
+/*<==================== Girl4 styles======================>*/
+.girl4{
+    background-image:url(../images/girl4.png);
+    width:226px;
+    height:552px;
+    margin:auto;
+    top:320px;
+}
+.girl4-invis{
+    top:414px;
+}
+/*
+<-=-=-=-=-=-=-=-=-=-=-=-=Animation Section -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=>
+*/
+.animation_holder-animate {
+    -moz-animation: Expand 300ms linear 100ms forwards;
+    -o-animation: Expand 300ms linear 100ms forwards;
+    -webkit-animation: Expand 300ms linear 100ms forwards;
+    animation: Expand 300ms linear 100ms forwards;
+}
+.human-animate {
+    -moz-animation: human-move-up 700ms linear 400ms forwards;
+    -o-animation: human-move-up 700ms linear 400ms forwards;
+    -webkit-animation: human-move-up 700ms linear 400ms forwards;
+    animation: human-move-up 700ms linear 400ms forwards;
+}
+.invis-animate{
+    -moz-animation: invis-move-up 700ms linear 400ms forwards;
+    -o-animation: invis-move-up 700ms linear 400ms forwards;
+    -webkit-animation: invis-move-up 700ms linear 400ms forwards;
+    animation: invis-move-up 700ms linear 400ms forwards;
+}
+
+
