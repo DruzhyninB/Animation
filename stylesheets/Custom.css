@@ -1,14 +1,16 @@
 ﻿body {
     background-color:#000;
     margin:0;
-    overflow:hidden;
 }
 .col-lg-3{
     padding-top:70px;
 }
+.col-lg-3,.col-lg-4{
+    overflow:hidden;
+}
 .Animation-place{
     width:310px;
-    height:310px;
+    height:420px;
     padding:5px;
     position:relative;
     margin:0 auto;
@@ -41,7 +43,7 @@
 .man1{
     background-image:url(../images/man1.png);
     width:253px;
-    height:529px;
+    height:575px;
     margin:auto;
     top:320px;
 }
@@ -52,7 +54,7 @@
 .girl1{
     background-image:url(../images/girl1.png);
     width:226px;
-    height:552px;
+    height:575px;
     margin:auto;
     top:320px;
 }
@@ -62,8 +64,8 @@
 /*<==================== Girl2 styles======================>*/
 .girl2{
     background-image:url(../images/girl2.png);
-    width:226px;
-    height:552px;
+    width:253px;
+    height:575px;
     margin:auto;
     top:320px;
 }
@@ -74,7 +76,7 @@
 .man2{
     background-image:url(../images/man2.png);
     width:253px;
-    height:529px;
+    height:575px;
     margin:auto;
     top:320px;
 }
@@ -84,8 +86,8 @@
 /*<==================== Girl3 styles======================>*/
 .girl3{
     background-image:url(../images/girl3.png);
-    width:226px;
-    height:552px;
+    width:240px;
+    height:575px;
     margin:auto;
     top:320px;
 }
@@ -96,7 +98,7 @@
 .man3{
     background-image:url(../images/man3.png);
     width:253px;
-    height:529px;
+    height:575px;
     margin:auto;
     top:320px;
 }
@@ -107,7 +109,7 @@
 .girl4{
     background-image:url(../images/girl4.png);
     width:226px;
-    height:552px;
+    height:575px;
     margin:auto;
     top:320px;
 }
