@@ -1,0 +1,62 @@
+﻿body{margin:0;background-color:#000;}
+.Scene-4 div{position:absolute;}
+
+.Scene-4{
+    width:300px;
+    height:300px;
+    border-radius:100%;
+    background-color:#c44d58;
+    position:relative;
+    overflow:hidden;
+}
+.back-layer{
+    border-radius: 100%;
+    position: absolute;
+    overflow: hidden;
+width:10px;height:10px;top:150px;left:150px;
+}
+.woman{
+    background-image:url('../images/Animation4/4/trunk.png');
+    width:195px;
+    height:310px;
+
+    top: calc(50% - 159px);
+    left: calc(50% - 350px);
+}
+.woman-cut{
+    background-image:url('../images/Animation4/4/trunk(cut).png');
+    position:absolute;
+    z-index:20;
+}
+.microphone{
+    background-image:url('../images/Animation4/4/microphone.png');
+    width:144px;
+    height:162px;
+
+    top: calc(50% - 24px);
+left: calc(50% + 200px);
+}
+
+/*<=================================== Animation Styles ==========================================>*/
+.Scene4-animate {
+    -moz-animation: Expand 300ms linear forwards;
+    -o-animation: Expand 300ms linear forwards;
+    -webkit-animation: Expand 300ms linear forwards;
+    animation: Expand 300ms linear forwards;
+}
+.back-layer-animate {
+    -moz-animation: Expandion 700ms linear 300ms forwards;
+    -o-animation: Expandion 700ms linear 300ms forwards;
+    -webkit-animation: Expandion 700ms linear 300ms forwards;
+    animation: Expandion 700ms linear 300ms forwards;
+}
+.woman-anim{    -moz-animation: woman 700ms linear 300ms forwards;
+    -o-animation: woman 700ms linear 300ms forwards;
+    -webkit-animation: woman 700ms linear 300ms forwards;
+    animation: woman 700ms linear 300ms forwards;}
+
+.micro-anim{    
+    -moz-animation: micro 400ms linear 600ms forwards;
+    -o-animation: micro 400ms linear 600ms forwards;
+    -webkit-animation: micro 400ms linear 600ms forwards;
+    animation: micro 400ms linear 600ms forwards;}

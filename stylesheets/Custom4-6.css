@@ -1,0 +1,62 @@
+﻿body{margin:0;background-color:#000;}
+.Scene-6 {    
+    width:320px;
+    height:320px;
+    margin:30px;
+    position:relative;
+}
+.Scene-6 div{position:absolute;}
+
+
+.circle{
+    width:270px;
+    height:270px;
+    border-radius:100%;
+    background:url('../images/Animation4/6/circle.png') 50% no-repeat ;
+    overflow:hidden;
+}
+
+.PC{
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ8AAADeCAMAAAAU5HUyAAAB71BMVEUAAADg4OD///84ODjg4OD///84ODjg4OD///84ODjg4OA4ODjg4OD////g4OD///84ODjg4OD///84ODjg4OD///84ODjg4ODg4OD///84ODjg4OD///84ODg/Q0ZVYnCAiZTg4OD19fX///84ODhBRUng4OD////g4OD7+/v///84ODjg4OD///84ODg4PT05OTk5TEw6Ojo6bm46c3M6d3c7Ozs7hoY8PDw9PT0/Q0Y/d3dAQEBBQUFDQ0NDUFJEQjxEREREX2RFRUVFWV1GRkZISEhJSUlKSkpMTExOTk5QUFBTU1NVVVVVYnBWVlZXV1dYVk9ZWVlbV0NbW1teXl5emaVfX19gYGBhYWFhsMBiYmJil6FjY2NmtMRnZ2dnoq1nw9ZpaWlpg4lpiW5pnqhp0udra2tsbGxtu8twcHBwpa9y1Ohzc3N1f4t3d3d81+h/e2Z/fneAiZSDg4OF2emHoKOKgViLi4uO3OmYs3yY3uqapaSbm5uflF6hlmCh4eqjo6Omm2SmnnWonWeqoXGq4+urq6utqqazs7O05uy2q3W96OzDw8PGuHTG6u3Ov3TP7e3T09PV2NvZ7+7b29vdymvdzHPg4ODi8u7r9O/t2XLw8PD133L19+/39/f++fD///84ODg/Pz9SUlLxxf2PAAAAL3RSTlMAEBAQICAgMDAwQEBQUGBgYHBwcICAgI+fn5+vr6+/v7+/v7+/z8/P39/f3+/v72GPRgsAAAVwSURBVHhe7NAxCsMwEAXRgYWAUCMIqDCo206gQ69z0KSwZeUM+q+bdrhZftdtZeNfbrE3LzyshfiLS+q/lJEAwEYsNMSvlG5AmSkV6LNkGGlJKdSl5OB44vxs6oyb4zF92aFDEwBAMArCDuMaD5PFLFgEg+0fy0ldQMEm4l299il/mm554IEHHnjggQce0U4rqe1nr68V1h6THTo0AQCEAiDqMC6iwd9NWgVFMLiTkzrBhx8swl299tK2VmTqc43fim898MADDzxCs5al6rNf9uyYJWIYCuC4H8av4eLi6iAOIoJLpzd0iRDq0KlIKJSDLs0QHuIHlap3Z7U5B4/mSv7/NdsP8ggv6/P47/vj7eo6fni/Rg888MADDzzwwAMPPMQKHtvEeVX1TvAYM14/GwweRSFetw2CR9HpPieNc1XeHvqtoGNDmbGH1d95ydXD9DqXy9SjDDqbz9Sj00iZevQ6X8Bj0iZTD6fz2eJ4iV2Phww6V308jcqram9W4lFI5/VHvjPH46j1o2DYf4yVO+ScPcQNYWOn86mrJaFH5VxTJvPodcyWjfO6L5hUHmZY7tEdnxk+6LRQJvB4bsvdQqNJMTFc02okl8DjRUOvXwVZnKPSA/VJPL5VpRgd8brUHoNXv+wUCXqgOpHHtHZJj+6v65LeQ2VBD+k1UmjlRDxscUql9zB4RHd/eASTtceTm1YL//sz4YEHHnjggQceeOCBBx544IEHHnjggQceeOCBBx63D9Eec/S4K1KEBx544IEHHnjgsf7wwAMPPPDAAw888MADDzzwwAMPPPDAA4939u4YByAgiqKoxViHKEQjCjGdRqsQYQuieomoKOQ1f6XIZDoSHeGfJdwN3PMeQXGXScvqQ6Krf8NPxc/26AFkA6A9rImk5POqPaxuIUXCVns4I2VntIcDOST1q3ts7N2xDYAwDAVRhqGHgM03QhSIwhI1IzAF43hSuig1SMSF3wi3wIn+x8yGed3UBaneY7d+EvVCvv8JD9UF71HHZAQn6vfgC0gpemQ3QMbIogcwohQ9StHDkYf9MlZdGAbCuA/jQyjonL9FSIZ0vLlTt4K36J+KUBxuCdwL+KSmoIN1SWlLY3Mf5IYbf+Tu+25+v1UX/2L3220Wrj+lDtkA/WcRaZx5MXaAbjYijcxDeAgP4SE8diZcB6WOZoCuJiKF5A/JH/I/pt8fsk+x7sMD0Zcal8sDmZtwHsiMtvFlsTyI2RXBPIiZCufLYnkAuTL8fwAR2NL5MqumvG913ue+1dqXXEd130r++EW/lfvltZYBOu1EeSCf3yv3s41J8qiYuW5xMFOnXaXIA4hb5+6mNSAmSHJe4O5xfKd5aGDieRG/jYDHSUWkJzt0SAAAAAJBjDAEePl5SYpGoJDcImz5kJ/S/MD5gw8++EA2O3BsBAAAwQAwk6CxhCGMorH/nTKGyMOKJOH9CGJJ5tipYxQAYSAKooMQsJFAwCJgt3VO6wlyU0Ek5gAWFjPdbx/LEv3Nzk889NBDDz0sfuuhhx566KGHHnrooYceFuzTsoNtWlZY2rssQR3DAqYDsRUYH8QKd/keVnnKrVsvjJJP9Wq/blYYhIEojN6UiiWIpRJR0I0G/Cl54FkUim/arUthkkKGOY/wMYs7/oGzohl9UvuXY/dJjU2BP3PEMUCajjgmSDNF7KE9NkizEAukoZg9tIeBLIZ4LGSxUXtojwqyVMTjIIvTHtrj8vuig33SHtrj8vuig524JM917VETVwlBzEZcDnKYhdjCHULcXaAIFhlB7ECRhM4ic+a1UUyhr5Cvsg8U31AbZGn+pDIXyNB6pPJGjp5HKi1O9EDWG/LU+BTalDl+gakFDho++jEAAAAASUVORK5CYII=') /*../images/Animation4/6/PC.png*/;
+    width:271px;
+    height:222px;
+
+    top: calc(50% + 180px);
+    left: calc(50% - 135px);
+}
+.Rocket{
+    background-image: url('../images/Animation4/8/rocket.png');
+    background-repeat:no-repeat;
+    width: 102px;
+    height: 155px;
+    top: 49px;left: 0;
+
+}
+.splitscreen {
+    width: 206px;
+    height: 48px;
+left: 54px;}
+.top{top: 20px;clip: rect(-50px,206px,48px,0px);}.bot {top: 68px;overflow: hidden;}.R-compensation{background-position: 0px 48px;}
+
+
+/*<=================================== Animation Styles ==========================================>*/
+.circle-animate {
+    -moz-animation: Expand 1000ms linear  forwards;
+    -o-animation: Expand 1000ms linear  forwards;
+    -webkit-animation: Expand 1000ms linear  forwards;
+    animation: Expand 1000ms linear  forwards;
+}
+.Pc-anim {
+    -moz-animation: PC 300ms linear 400ms forwards;
+    -o-animation: PC 300ms linear 400ms forwards;
+    -webkit-animation: PC 300ms linear 400ms forwards;
+    animation: PC 300ms linear 400ms forwards;
+}
+
+
+.R-anim {
+    -moz-animation: rocket 300ms linear 700ms forwards;
+    -o-animation: rocket 300ms linear 700ms forwards;
+    -webkit-animation: rocket 300ms linear 700ms forwards;
+    animation: rocket 300ms linear 700ms forwards;
+}

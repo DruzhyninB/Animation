@@ -1,0 +1,77 @@
+﻿@-moz-keyframes Expand{
+    0%{width:10px;height:10px;top:145px;left:145px;}
+    75%{width:350px;height:350px;top:-25px;left:-25px;}
+    100%{width:300px;height:300px;top:0;left:0;}
+}
+
+@-webkit-keyframes Expand{
+    0%{width:10px;height:10px;top:145px;left:145px;}
+    75%{width:350px;height:350px;top:-25px;left:-25px;}
+    100%{width:300px;height:300px;top:0;left:0;}
+}
+
+@keyframes Expand{
+    0%{width:10px;height:10px;top:145px;left:145px;}
+    75%{width:350px;height:350px;top:-26px;left:-25px;}
+    100%{width:300px;height:300px;top:0;left:0;}
+}
+/*<--------------------------------------------------------------------------->*/
+@-moz-keyframes Expandion{
+    from{width:10px;height:10px;top:150px;left:150px;}
+    to{width:350px;height:350px;top:-25px;left:-25px;}
+}
+
+@-webkit-keyframes Expandion{
+    from{width:10px;height:10px;top:150px;left:150px;}
+    to{width:350px;height:350px;top:-25px;left:-25px;}
+}
+
+@keyframes Expandion{
+    from{width:10px;height:10px;top:150px;left:150px;}
+    to{width:350px;height:350px;top:-25px;left:-25px;}
+}
+/*<--------------------------------------------------------------------------->*/
+@-moz-keyframes handmove1{
+    from{top: calc(50% + 39px);left: calc(50% - 240px);}
+    to{top: calc(50% - 63px);left: calc(50% - 150px);}
+}
+
+@-webkit-keyframes handmove1{
+    from{top: calc(50% + 39px);left: calc(50% - 240px);}
+    to{top: calc(50% - 63px);left: calc(50% - 150px);}
+}
+
+@keyframes handmove1{
+    from{top: calc(50% + 39px);left: calc(50% - 240px);}
+    to{top: calc(50% - 63px);left: calc(50% - 150px);}
+}
+/*<--------------------------------------------------------------------------->*/
+@-moz-keyframes handmove2{
+    from{top: calc(50% + 52px);left: calc(50% + 167px);}
+    to{top: calc(50% - 40px);left: calc(50% + 50px);}
+}
+
+@-webkit-keyframes handmove2{
+    from{top: calc(50% + 52px);left: calc(50% + 167px);}
+    to{top: calc(50% - 40px);left: calc(50% + 50px);}
+}
+
+@keyframes handmove2{
+    from{top: calc(50% + 52px);left: calc(50% + 167px);}
+    to{top: calc(50% - 40px);left: calc(50% + 50px);}
+}
+/*<--------------------------------------------------------------------------->*/
+ @-moz-keyframes tablet{
+    from{    top: calc(50% + 175px);}
+    to{top: calc(50% - 122px);}
+}
+
+@-webkit-keyframes tablet{
+    from{    top: calc(50% + 175px);}
+    to{top: calc(50% - 122px);}
+}
+
+@keyframes tablet{
+    from{    top: calc(50% + 175px);}
+    to{top: calc(50% - 122px);}
+}

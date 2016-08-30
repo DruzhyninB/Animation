@@ -1,0 +1,73 @@
+﻿body{margin:0;background-color:#000;}
+.Scene-5 div{position:absolute;}
+
+.Scene-5{
+    width:300px;
+    height:300px;
+    border-radius:100%;
+    background-color:#0b486b;
+    position:relative;
+    overflow:hidden;
+}
+.back-layer{
+    border-radius: 100%;
+    position: absolute;
+    overflow: hidden;
+width:10px;height:10px;top:150px;left:150px;
+}
+
+.Lhand{
+    background-image:url('../images/Animation4/5/L_Hand.png');
+    width:60px;
+    height:168px;
+
+top: calc(50% + 39px);left: calc(50% - 240px);
+}
+.Lhand-cover{background-image:url('../images/Animation4/5/L_Hand(cut).png');z-index:3;}
+
+.Rhand{
+    background-image:url('../images/Animation4/5/R_Hand.png');
+        background-repeat: no-repeat;
+    width:133px;
+    height:195px;
+top: calc(50% + 52px);left: calc(50% + 167px);
+    z-index: 3;
+}.Rhand-cover{ 
+    background-image:url('../images/Animation4/5/R_Hand(cut).png');
+    position: absolute;
+top: calc(50% + 52px);left: calc(50% + 167px);
+}
+.tablet {
+    background-image: url('../images/Animation4/5/laptop.png');
+    width: 232px;
+    height: 163px;
+    z-index: 2;
+    top: calc(50% + 175px);
+    left: calc(50% - 112px);
+}
+
+/*<=================================== Animation Styles ==========================================>*/
+.Scene5-animate {
+    -moz-animation: Expand 300ms linear forwards;
+    -o-animation: Expand 300ms linear forwards;
+    -webkit-animation: Expand 300ms linear forwards;
+    animation: Expand 300ms linear forwards;
+}
+.back-layer-animate {
+    -moz-animation: Expandion 700ms linear 300ms forwards;
+    -o-animation: Expandion 700ms linear 300ms forwards;
+    -webkit-animation: Expandion 700ms linear 300ms forwards;
+    animation: Expandion 700ms linear 300ms forwards;
+}
+.Lhand-anim{    -moz-animation: handmove1 700ms linear 300ms forwards;
+    -o-animation: handmove1 700ms linear 300ms forwards;
+    -webkit-animation: handmove1 700ms linear 300ms forwards;
+    animation: handmove1 700ms linear 300ms forwards;}
+.Rhand-anim{    -moz-animation: handmove2 700ms linear 300ms forwards;
+    -o-animation: handmove2 700ms linear 300ms forwards;
+    -webkit-animation: handmove2 700ms linear 300ms forwards;
+    animation: handmove2 700ms linear 300ms forwards;}
+.tablet-anim{    -moz-animation: tablet 700ms linear 300ms forwards;
+    -o-animation: tablet 700ms linear 300ms forwards;
+    -webkit-animation: tablet 700ms linear 300ms forwards;
+    animation: tablet 700ms linear 300ms forwards;}

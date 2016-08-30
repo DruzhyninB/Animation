@@ -1,0 +1,88 @@
+﻿@-moz-keyframes Expand{
+    0%{width:10px;height:10px;top:150px;left:150px;}
+    75%{width:350px;height:350px;top:-25px;left:-25px;}
+    100%{width:300px;height:300px;top:0;left:0;}
+}
+
+@-webkit-keyframes Expand{
+    0%{width:10px;height:10px;top:150px;left:150px;}
+    75%{width:350px;height:350px;top:-25px;left:-25px;}
+    100%{width:300px;height:300px;top:0;left:0;}
+}
+
+@keyframes Expand{
+    0%{width:10px;height:10px;top:150px;left:150px;}
+    65%{width:350px;height:350px;top:-25px;left:-25px;}
+    100%{width:300px;height:300px;top:0;left:0;}
+}
+/*<--------------------------------------------------------------------------->*/
+@-moz-keyframes lapMove{
+    from{top: -25px;left: -187px;}
+    to{top: 76px;left: 44px;}
+}
+@-webkit-keyframes lapMove{
+    from{top: -25px;left: -187px;}
+    to{top: 76px;left: 44px;}
+}
+@keyframes lapMove{
+    from{top: -25px;left: -187px;}
+    to{top: 76px;left: 44px;}
+}
+/*<--------------------------------------------------------------------------->*/
+@-moz-keyframes handL{
+    from{top: 98px;left: -164px;}
+    to{top: 144px;left: -43px;}
+}
+
+@-webkit-keyframes handL{
+    from{top: 98px;left: -164px;}
+    to{top: 144px;left: -43px;}
+}
+
+@keyframes handL{
+    from{top: 98px;left: -164px;}
+    to{top: 144px;left: -43px;}
+}
+/*<--------------------------------------------------------------------------->*/
+@-moz-keyframes handR{
+    from{top: 93px;left: 291px;}
+    to{top: 140px;left: 162px;}
+}
+
+@-webkit-keyframes handR{
+    from{top: 93px;left: 291px;}
+    to{top: 140px;left: 162px;}
+}
+
+@keyframes handR{
+    from{top: 93px;left: 291px;}
+    to{top: 140px;left: 162px;}
+}
+/*<--------------------------------------------------------------------------->*/
+@-moz-keyframes R{
+    from{top: 46px;left: 6px;}
+    to{top: -76px;left: 56px;}
+}
+
+@-webkit-keyframes R{
+    from{top: 46px;left: 6px;}
+    to{top: -76px;left: 56px;}
+}
+
+@keyframes R{
+    from{top: 46px;left: 6px;}
+    to{top: -76px;left: 56px;}
+}/*<--------------------------------------------------------------------------->*/
+ @-moz-keyframes V{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+@-webkit-keyframes V{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+@keyframes V{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+/*<--------------------------------------------------------------------------->*/

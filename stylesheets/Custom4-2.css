@@ -1,0 +1,171 @@
+﻿body {
+    background-color:#000;
+    margin:0;
+}
+.Animation-area{
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+}
+.Animation-container{
+    width:262px;
+    height:420px;
+    padding:5px;
+    position:relative;
+    margin:0 auto;
+}
+.animation_holder{
+    width:252px;
+    height:262px;
+    border-radius:100%;
+    background-color:#0b486b;
+    margin:89px auto;
+    overflow:hidden;
+    position: absolute;
+}
+.animation_holder div:first-child{
+    position:relative;
+}
+.invisible_area{
+  clip: rect(0px,auto,250px,0px);
+  background: transparent;
+  position: absolute;
+  z-index: 10;
+  overflow: visible;
+  border: 5px solid transparent;
+  height: 100%;
+  margin: 0 0 0 -5px;
+}
+
+/*<=================== Man1 styles=======================>*/
+.man1{
+    background-image:url('../images/Animation4/2/trunk.png');
+    width:212px;
+    height:362px;
+    margin-left:40px;
+    top:320px;
+}
+.man1-invis{
+    top:414px;
+    left: -5px;
+}
+
+/*<=================== Hend + Paper=======================>*/
+.hend_paper 
+{
+    background-image:url(../images/Animation4/2/paper.png);
+    width:124px;
+    height:102px;
+    
+    position: absolute!important;
+    
+    bottom:-138px;
+    left:35px;
+    z-index:15; 
+    
+}
+
+.hend_paper_down 
+{
+    background-image:url(../images/Animation4/2/paper.png);
+    width:124px;
+    height:102px;
+    
+    position: absolute!important;
+    
+    bottom: 5px;
+    left:35px;
+    z-index:15;
+
+    visibility:hidden;
+}
+.pen{
+    background-image:url('../images/Animation4/2/pencil.png');
+    width:31px;
+    height:70px;
+    position: absolute;
+    top: 144px;
+    left: 58px;
+    background-position: 0px 70px;
+    background-repeat: no-repeat;
+}
+
+.hamster{
+    background-image: url('../images/Animation4/2/hamster.png');
+    width: 43px;
+    background-position: 0px 20px;
+    height: 21px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 245px;
+    left: 161px;    
+    z-index: 100;
+
+}
+
+
+
+/*
+<-=-=-=-=-=-=-=-=-=-=-=-=Animation Section -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=>
+*/
+.animation_holder-animate {
+    -moz-animation: Expand 300ms linear 100ms forwards;
+    -o-animation: Expand 300ms linear 100ms forwards;
+    -webkit-animation: Expand 300ms linear 100ms forwards;
+    animation: Expand 300ms linear 100ms forwards;
+}
+.human-animate {
+    -moz-animation: human-move-up 400ms linear 100ms forwards;
+    -o-animation: human-move-up 400ms linear 100ms forwards;
+    -webkit-animation: human-move-up 400ms linear 100ms forwards;
+    animation: human-move-up 400ms linear 100ms forwards;
+}
+.invis-animate{
+    -moz-animation: invis-move-up 400ms linear 100ms forwards;
+    -o-animation: invis-move-up 400ms linear 100ms forwards;
+    -webkit-animation: invis-move-up 400ms linear 100ms forwards;
+    animation: invis-move-up 400ms linear 100ms forwards;
+}
+
+/*<=================== Hend + Paper=======================>*/
+.hend_paper-up-animate{
+    -moz-animation: hend_paper-up-key 400ms linear 400ms forwards;
+    -o-animation: hend_paper-up-key 400ms linear 400ms forwards;
+    -webkit-animation: hend_paper-up-key 400ms linear 400ms forwards;
+    animation: hend_paper-up-key 400ms linear 400ms forwards;
+
+}
+.ham-anim {
+    -moz-animation: ham 400ms linear 500ms forwards;
+    -o-animation: ham 400ms linear 500ms forwards;
+    -webkit-animation: ham 400ms linear 500ms forwards;
+    animation: ham 400ms linear 500ms forwards;
+}
+
+@-moz-keyframes pen{
+    from{background-position:0px 70px;}
+    to{background-position:0px 0px;}
+}
+
+@-webkit-keyframes pen{
+    from{background-position:0px 70px;}
+    to{background-position:0px 0px;}
+}
+
+@keyframes pen{
+    from{background-position:0px 70px;}
+    to{background-position:0px 0px;}
+}
+.pen-anim{    
+    -moz-animation: pen 200ms linear 800ms forwards;
+    -o-animation: pen 200ms linear 800ms forwards;
+    -webkit-animation: pen 200ms linear 800ms forwards;
+    animation: pen 200ms linear 800ms forwards;}
+
+.hend_paper-down-animate{
+    -moz-animation: hend_paper-down-key 100ms linear 800ms forwards;
+    -o-animation: hend_paper-down-key 100ms linear 800ms forwards;
+    -webkit-animation: hend_paper-down-key 100ms linear 800ms forwards;
+    animation: hend_paper-down-key 100ms linear 800ms forwards;
+    
+}

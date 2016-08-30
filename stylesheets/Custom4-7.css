@@ -1,0 +1,173 @@
+﻿body{margin:0;background-color:#000;}
+.Scene-7{
+    width:300px;
+    height:300px;
+    border-radius:100%;
+    background-color:#fff;
+    overflow:hidden;
+    margin:30px;
+    position: absolute;
+}
+.Scene-7 div{position:absolute;}
+.Pult{
+    background-image:url('../images/Animation4/7/range.png');
+    width:450px;
+    height:200px;
+    top: 320px;
+    left: -88px;
+}
+.btn{
+    background-image:url('../images/Animation4/7/button.png');
+    width:30px;
+    height:19px;
+
+    top: 121px;
+    left: 253px;
+}
+.pusher{
+    background-image:url('../images/Animation4/7/hand.png');
+    width:168px;
+    height:184px;
+
+    top: -35px;
+    left: -13px
+}
+
+.V1{
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPUAAAAiCAYAAACHip/yAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQVJREFUeNrs2iFOA1EUBdApwWG6hBp8q2toMCyhklTUsILWlJoiURgESV2XgCEdBJp6zCxhDJ5PwgL+kEl4Hc5Jfsa8tO9n7k0qWhQAAAAAANA1vbY+6L1+ughwn3rUnx1yh3cfu0F6DALsfZieT+vc4cXL4zA9+n+99N3lvGwyP95sImSkelsuq9zhs6ubMBn5fH7Iyshpi1+6D3Dx75BNGsxfp7MKsPfkZ/dc9+lEKEjvCDOyTue2yxk58WMFukWpQakBpQaUGlBqQKlBqQGlBpQa+LU2/ya6DnCfquF8GeQ9NN17m87rEeYtQkbKf5IRAAAAAAAAAAAAAAAAAACK4kuAAQBOPidyg9TrAwAAAABJRU5ErkJggg==') /*../images/Animation4/7/volume/1.png*/;
+    width:245px;
+    height:34px;
+    top: 128px;
+    left: 22px;
+    visibility:hidden;
+}
+.V2{
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOgAAAATCAYAAACa/EGiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO1JREFUeNrs2qEKAkEUheFRfACb1W60y1h9BcMqGCyGzQqroNlgMQiOwVcwL3bBYp9q8xEcg80wN6hX9/9Athzk7uw9sGGNAQAAAAAAQOGVYkLH626qYFbfqiUuNry97G24WAVzu36j62PD6WHdC5f6t4dedoaiZ96czDTsSH6aZ3lseLRZqNmR1WD8ckcqkX+QaTj8x40I8lbR3F6QT5QsjbRwGs76ed5/syNlXiIAvSgoQEEBUFCAggKgoAAoKEBBAVBQgIIC+JjYT/3aCma9CfPOyD77epezMJ+GX/UHd0nDjviC7AgADe4CDAB2AShMeAxbxAAAAABJRU5ErkJggg==') /*../images/Animation4/7/volume/2.png*/;
+    width:232px;
+    height:19px;
+    top: 116px;
+    left: 31px;
+    visibility:hidden;
+}
+.V3{
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAAAUCAYAAABszsoZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPdJREFUeNrs2rEJwkAUxnENDpAJxN7GbGBqK2tBxNJUDiAaHCBVLAUFaytr4wRJYx+c4EbwCQ5wR4S8w/8PjjQv8O54H1wgQQeAFwKOACCsAAgrQFgBKNVr8vLtdRkr2IOZ9GeVbXFengfyGCjou0qiubEtXl3zkTzCtps+TJPCpX643miYkfqZ7Wvb4tIc1cxIFC7NT8Iq7go29Bme2KF+IWuroO/427utTJaGwe96OCOprJ3vM8I1GOCbFQBhBQgrAMIKgLAChBUAYQVAWAHCCqA9TX83TBXsoXasL5ScvWvfJ1kPD2dMw4wUfzIjALgGA7D2FmAABHsngYEAbT4AAAAASUVORK5CYII=') /*../images/Animation4/7/volume/3.png*/;
+    width:235px;
+    height:20px;
+    top: 102px;
+    left: 25px;
+    visibility:hidden;
+}
+.V4{
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAAVCAYAAAD1sST3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAK9JREFUeNrs06ENwkAABdBC2IQwA5ZuUUkwKBwGRVEYHApDkN2Cszg8adIR2ABqcUeDOOC95HLmi9/mX5YBAAAAAH+uFxOqblXZXusE+ubFqAix4d3l9Eigc1iOp3lseFbtJ+11TqD35lgsytjwcL5KYiP1Yfuy6b43zi8zcAwcDBwMHAwcDBwMHAP3CzBw+FKDyFzTnpBA3/ub+RQ6Xzt8Ywq9mw754EkB8BlPAQYApLMbaiNIVtMAAAAASUVORK5CYII=') /*../images/Animation4/7/volume/4.png*/;
+    width:184px;
+    height:21px;
+    top: 87px;
+    left: 31px;
+    visibility:hidden;
+}
+.V5{
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAASCAYAAACAR5Z3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALBJREFUeNpiYBgFo2AUjIJRMApGwSigP2DEJdF0eO7+QeC+C3W2yYXEKo5aNCEBSMUPAncXLosruECsYunYkn4gZTDQjn66uMcRXYwFj3qHIZjgFQaJuwVIVG8wWMObabQQHQWjCWQUjCaQUTCaQEbBaAIZBaMJZBSMJpBRMJpARsFoAhkFo2A0gYwCAgDfULvjIHDfBxLVLwDiA4PA3RdIVA+abxIYTY6jYMgBgAADALcPEyAE9ZQmAAAAAElFTkSuQmCC') /*../images/Animation4/7/volume/5.png*/;
+    width:136px;
+    height:18px;
+    top: 76px;
+    left: 80px;
+    visibility:hidden;
+}
+.V6{
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIYAAAAWCAYAAAAFH+TSAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALNJREFUeNrs2LEJg0AYxfGLZIMs4CgH2cAJbJJa0lkZKzuxTpqbwA0C3yi3gDvkrrCL4oGQT/j/mhN8xUOeFhoDAAAAAP90WrpRf142HFZBR9dd735ruHj3TwWd/Xh7uK3hS1Hl4SgV9JZpHCRenFdCcRSNhrLxQSfktXR2CflcSe+5u8n4aOIXhgGGAYYBhgGGAYYBhgGGAYaBQ1v7JS5KOvrEfHvAzl5Jb+GVAADs5CvAAJ3vGd2iWm0SAAAAAElFTkSuQmCC') /*../images/Animation4/7/volume/6.png*/;
+    width:134px;
+    height:22px;
+    top: 60px;
+    left: 80px;
+    visibility:hidden;
+}
+.V7{
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAASCAYAAADfVhk+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHBJREFUeNpiYBgFo2AUjAKcgBFdwGtK9/5B4K4L23JKC4lVzO2RbQCk+geBuxd+3TF1AbIACxZFDkMwoQgMEncfRBdgGs3EtAWjATwawKMBPApGA3g0gEcDeBSMBvBoAI8G8CgYBaNgFIwCegKAAAMAxUULawnTm0QAAAAASUVORK5CYII=') /*../images/Animation4/7/volume/7.png*/;
+    width:88px;
+    height:18px;
+    top: 50px;
+    left: 128px;
+    visibility:hidden;
+}
+.V8{
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAATCAYAAADvXT9EAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFJJREFUeNpiYBgFo4AowEisQufezgQgpTDQDt5bXN4AollI0BMPxA6DILDBDmcaqkll1OGjDh91+KjDRx0+6vABAaRU+QuB+OBo824UDDEAEGAAvfIGn95xTV4AAAAASUVORK5CYII=') /*../images/Animation4/7/volume/8.png*/;
+    width:46px;
+    height:19px;
+    top: 36px;
+    left: 122px;    
+    visibility:hidden;
+}
+.V9{
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAASCAYAAAAQeC39AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFNJREFUeNpiYBgFo2AU0BIwkqLYuq2tH0gZDLSjj1ZVORJSw0KimSBPOQyFGGMarklx1GOjHhv12KjHRj026rFRjw1CQGqTqhCIBUab2AMIAAIMAP8BBQ9tcELKAAAAAElFTkSuQmCC') /*../images/Animation4/7/volume/9.png*/;
+    width:54px;
+    height:18px;
+    left: 121px;
+    top: 22px;
+    visibility:hidden;
+}
+/*<=================================== Animation Styles ==========================================>*/
+.Scene-7-animate {
+    -moz-animation: Expand 300ms linear 100ms forwards;
+    -o-animation: Expand 300ms linear 100ms forwards;
+    -webkit-animation: Expand 300ms linear 100ms forwards;
+    animation: Expand 300ms linear 100ms forwards;
+}
+.pult-anim {
+    -moz-animation: pult 200ms linear 410ms forwards;
+    -o-animation: pult 200ms linear 410ms forwards;
+    -webkit-animation: pult 200ms linear 410ms forwards;
+    animation: pult 200ms linear 410ms forwards;
+}
+.btn-anim {
+    -moz-animation: btn 400ms linear 620ms forwards;
+    -o-animation: btn 400ms linear 620ms forwards;
+    -webkit-animation: btn 400ms linear 620ms forwards;
+    animation: btn 400ms linear 620ms forwards;
+}
+
+.V1-anim {
+    -moz-animation: V 100ms step-start 620ms forwards;
+    -o-animation: V 100ms step-start 620ms forwards;
+    -webkit-animation: V 100ms step-start 620ms forwards;
+    animation: V 100ms step-start 620ms forwards;
+}.V2-anim {
+    -moz-animation: V 100ms step-start 670ms forwards;
+    -o-animation: V 100ms step-start 670ms forwards;
+    -webkit-animation: V 100ms step-start 670ms forwards;
+    animation: V 100ms step-start 670ms forwards;
+}.V3-anim {
+    -moz-animation: V 100ms step-start 720ms forwards;
+    -o-animation: V 100ms step-start 720ms forwards;
+    -webkit-animation: V 100ms step-start 720ms forwards;
+    animation: V 100ms step-start 720ms forwards;
+}.V4-anim {
+    -moz-animation: V 100ms step-start 770ms forwards;
+    -o-animation: V 100ms step-start 770ms forwards;
+    -webkit-animation: V 100ms step-start 770ms forwards;
+    animation: V 100ms step-start 770ms forwards;
+}.V5-anim {
+    -moz-animation: V 100ms step-start 820ms forwards;
+    -o-animation: V 100ms step-start 820ms forwards;
+    -webkit-animation: V 100ms step-start 820ms forwards;
+    animation: V 100ms step-start 820ms forwards;
+}.V6-anim {
+    -moz-animation: V 100ms step-start 870ms forwards;
+    -o-animation: V 100ms step-start 870ms forwards;
+    -webkit-animation: V 100ms step-start 870ms forwards;
+    animation: V 100ms step-start 870ms forwards;
+}.V7-anim {
+    -moz-animation: V 100ms step-start 920ms forwards;
+    -o-animation: V 100ms step-start 920ms forwards;
+    -webkit-animation: V 100ms step-start 920ms forwards;
+    animation: V 100ms step-start 920ms forwards;
+}.V8-anim {
+    -moz-animation: V 100ms step-start 970ms forwards;
+    -o-animation: V 100ms step-start 970ms forwards;
+    -webkit-animation: V 100ms step-start 970ms forwards;
+    animation: V 100ms step-start 970ms forwards;
+}.V9-anim {
+    -moz-animation: V 100ms step-start 1020ms forwards;
+    -o-animation: V 100ms step-start 1020ms forwards;
+    -webkit-animation: V 100ms step-start 1020ms forwards;
+    animation: V 100ms step-start 1020ms forwards;
+}

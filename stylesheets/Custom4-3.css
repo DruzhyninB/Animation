@@ -1,0 +1,87 @@
+﻿body{margin:0;background-color:#000;}
+.Scene-3 div{position:absolute;}
+
+.Scene-3{
+    width:250px;
+    height:250px;
+    border-radius:100%;
+    background-color:#c08254;
+    position:relative;
+    overflow:hidden;
+    margin: 30px;
+}
+.back-layer{
+    border-radius: 100%;
+    position: absolute;
+    overflow: hidden;
+width:10px;height:10px;top:115px;left:115px;
+}
+
+.CUP {
+    background-image: url('../images/Animation4/3/coffee.png');
+    width: 82px;
+    height: 67px;
+    position: absolute;
+    z-index: 10;
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    top: calc(50% - 120px);
+    left: calc(50% + 26px);
+}
+.handd{
+    background-image:url('../images/Animation4/3/hand.png');
+    width:148px;
+    height:221px;    
+    z-index: 2;
+top: calc(50% + 16px);left: calc(50% + 171px);
+} 
+.handd-cut{background-image:url('../images/Animation4/3/hand-cut.png');position:absolute;} 
+.paper {
+    background-image:url('../images/Animation4/3/papers.png');
+    width:264px;
+    height:186px;
+top: calc(50% - 38px);left: calc(50% - 414px);
+}
+.paper-noneCut{
+    position:absolute;
+}
+.pens {
+    background-image:url('../images/Animation4/3/pencils.png');
+    width:162px;
+    height:79px;
+    top: calc(50% - 194px);
+    left: calc(50% - 188px);
+}
+/*<=================================== Animation Styles ==========================================>*/
+.Scene3-animate {
+    -moz-animation: Expand 300ms linear forwards;
+    -o-animation: Expand 300ms linear forwards;
+    -webkit-animation: Expand 300ms linear forwards;
+    animation: Expand 300ms linear forwards;
+}
+.back-layer-animate {
+    -moz-animation: Expandion 700ms linear 300ms forwards;
+    -o-animation: Expandion 700ms linear 300ms forwards;
+    -webkit-animation: Expandion 700ms linear 300ms forwards;
+    animation: Expandion 700ms linear 300ms forwards;
+}
+.paper-anim{-moz-animation: paper 700ms linear 300ms forwards;
+    -o-animation: paper 700ms linear 300ms forwards;
+    -webkit-animation: paper 700ms linear 300ms forwards;
+    animation: paper 700ms linear 300ms forwards;}
+.handd-anim{-moz-animation: handd 700ms linear 300ms forwards;
+    -o-animation: handd 700ms linear 300ms forwards;
+    -webkit-animation: handd 700ms linear 300ms forwards;
+    animation: handd 700ms linear 300ms forwards;}
+.pens-anim{-moz-animation: pens 700ms linear 300ms forwards;
+    -o-animation: pens 700ms linear 300ms forwards;
+    -webkit-animation: pens 700ms linear 300ms forwards;
+    animation: pens 700ms linear 300ms forwards;}
+
+.cup-anim{-moz-animation: cup 300ms linear 900ms forwards;
+    -o-animation: cup 300ms linear 900ms forwards;
+    -webkit-animation: cup 300ms linear 900ms forwards;
+    animation: cup 300ms linear 900ms forwards;}
